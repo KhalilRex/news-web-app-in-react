@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* Header.css */
+.navbar {
+  background-color: #1e3a55; /* Dark blue background color */
+  z-index: 1; /* Set z-index to make the navbar appear above the content */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* White text color */
+}
+
+/* Style active link */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
